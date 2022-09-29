@@ -1,0 +1,19 @@
+.pie-chart {
+  height: 30px;
+  width: 30px;
+  background-color: #eef6e7;
+  border: 2vw solid #9fcd96;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 5px solid #d4e6c3;
+}
+
+.pie-chart__progress-text {
+  font-size: 75%;
+}
+
+.pie-chart__progress-text_small-font {
+  font-size: 3%;
+}
