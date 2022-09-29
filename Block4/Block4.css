@@ -32,7 +32,7 @@
   width: 50px;
 }
 
-.__temperature {
+.card-weather__temperature {
   font-size: 18px;
   margin: 0;
   margin-top: 10px;
