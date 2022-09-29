@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+
+.main-div {
+  height: 150vw;
+}
+
+.hidden-block {
+  margin-top: 500px;
+  height: 100px;
+  width: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -230px;
+  transition: 1.5ms;
+  animation: 1.5s;
+  animation-name: slideon;
+}
+
+.visible {
+  background-color: #f9d558;
+  width: 20px;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.visible__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-lr;
+  rotate: 180deg;
+  height: 100%;
+  width: 100%;
+}
+
+.invisible {
+  background-color: #303030;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+}
+
+.invisible__image {
+  margin: 10px;
+  height: 80px;
+  width: 80px;
+}
+
+.invisible__text {
+  color: white;
+  margin-right: 10px;
+}
+
+.hidden-block:hover {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  to {
+    margin-left: 0;
+    animation-play-state: paused;
+  }
+}
