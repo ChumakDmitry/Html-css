@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: Merriweather, serif !important;
+  font-size: 72px;
+}
+
+.back-image {
+  height: 854px;
+  width: 854px;
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/e52fd3fef67e50928b010681/-min.jpg);
+  border-radius: 50%;
+  background-position: 50% 50%;
+  margin: 40px auto 0;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin-top: -239px;
+}
+
+.block__text_header {
+  font-size: 24px;
+}
