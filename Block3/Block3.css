@@ -1,0 +1,19 @@
+.circle-chart {
+  height: 100px;
+  width: 100px;
+  background-color: #eef6e7;
+  border: 10px solid #9fcd96;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 10px solid #d4e6c3;
+}
+
+.circle-chart__progress-text {
+  font-size: 28px;
+}
+
+.circle-chart__progress-text_small-font {
+  font-size: 20px;
+}
