@@ -1,0 +1,47 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.battery {
+  width: 42vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.battery-body {
+  border: 4px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 36vw;
+  height: 20vh;
+}
+
+.battery-body__charge {
+  background-color: green;
+  height: 20vh;
+  width: 36vw;
+}
+
+.battery-body__charge_yellow {
+  width: 24vw;
+  background-color: yellow;
+}
+
+.battery-body__charge_red {
+  width: 12vw;
+  background-color: red;
+}
+
+.battery-anode {
+  border: 4px solid black;
+  height: 2vh;
+  width: 2vw;
+  background-color: black;
+  display: flex;
+  align-self: center;
+}
+
