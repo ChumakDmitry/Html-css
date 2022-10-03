@@ -1,0 +1,30 @@
+.progress-bar {
+  height: 20px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.progress-bar__progress {
+  height: 90%;
+  width: 35%;
+  background: rgb(107,186,244);
+  background: linear-gradient(rgba(107,186,244,1) 0%, rgba(54,140,231,1) 50%, rgba(107,186,244,1) 100%);
+  border: 1px solid #358be7;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.progress-bar__rest {
+  height: 100%;
+  width: 65%;
+  background-color: yellow;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: inset 3px 0px 3px #2c2c2c;
+  background: rgb(44,44,44);
+  background: linear-gradient(180deg, rgba(44,44,44,1) 0%, rgba(152,152,152,1) 100%);
+}
