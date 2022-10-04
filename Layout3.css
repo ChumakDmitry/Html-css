@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.black {
+  background-color: #292d33;
+  height: 487px;
+}
+
+.bottom {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  width: 1032px;
+  margin: -417px auto 50px;
+  height: 560px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.table__data {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.table__texts {
+  height: 60%;
+  width: 100%;
+  padding: 0 30px 20px 0;
+}
+
+.table__images_small {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40%;
+}
+
+.table__image {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.table__image_head {
+  height: 100%;
+  width: 55%;
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/f6e6e381887f5c229e34eeb7/hfgh-min.jpg);
+}
+
+.table__image_small {
+  width: 100%;
+  height: 185px;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.table__image_small_first {
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/b4d6321d050952d89196e6d1/full-shot-woman-training-with-dumbbell_23-2148801857.jpg);
+}
+
+.table__image_small_second {
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/7f6e5c9cada75c08b493b47a/close-up-man-with-dumbbells_23-2148801864.jpg?version=);
+}
+
+.table__link {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.border {
+  border: 15px solid transparent;
+  background-clip: padding-box;
+  background-origin: padding-box;
+}
+
+.table__header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  width: 90%;
+  color: #f1c50e;
+}
+
+.text {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.table__text {
+  font-style: italic;
+  width: 90%;
+}
+
+.table__text_link {
+  letter-spacing: 1px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__text {
+  margin: auto;
+  margin-top: 49px;
+  margin-bottom: 49px;
+  color: white;
+  font-size: 14px;
+  width: 417px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footer__text_small {
+  font-size: 12.8px;
+  color: white;
+}
+
+.footer__link {
+  color: #adcce9;
+}
+
+.footer__links {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.table__link:hover {
+  color: rgb(214, 214, 214);
+}
+
+@media (max-width: 1200px) {
+  .table {
+    width: 970px;
+    height: 534px;
+    word-wrap: break-word;
+  }
+
+  .table__image_small {
+    height: 145px;
+  }
+
+  .table__data {
+    height: 100%;
+  }
+  .table__header {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .black {
+    height: 1231px;
+  }
+
+  .table {
+    flex-direction: column;
+    width: 720px;
+    margin-top: -1161px;
+    margin-bottom: 51px;
+    height: 1408px;
+  }
+
+  .table__image_head {
+    width: 100%;
+    height: 55%;
+  }
+
+  .table__data {
+    width: 100%;
+    height: 45%;
+    justify-content: flex-start;
+  }
+
+  .table__header {
+    width: 100%;
+  }
+
+  .table__text {
+    width: 95%;
+  }
+
+  .table__texts {
+    height: 30%;
+    width: 90%;
+  }
+
+  .table__images_small {
+    width: 100%;
+    height: 75%;
+  }
+
+  .table__image_small {
+    height: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 770px) {
+
+  .table {
+    width: 540px;
+    height: 2090px;
+  }
+
+  .table__image {
+    min-height: 591px;
+    height: 30%;
+  }
+
+  .table__data {
+    height: 70%;
+  }
+
+  .table__texts {
+    height: 20%;
+  }
+
+  .table__images_small {
+    flex-direction: column;
+    height: 80%;
+  }
+
+  .table__image_small {
+    height: 40%;
+  }
+
+  .border {
+    border: none;
+  }
+
+  .table__header {
+    margin-top: 20px;
+  }
+
+  .table__image_small {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .table {
+    height: 1454px;
+    width: 340px;
+    margin-top: -783px;
+  }
+
+  .table__header {
+    font-size: 36px;
+  }
+
+  .table__image_head {
+    width: 100%;
+    height: 25%;
+  }
+
+  .table__data {
+    height: 75%;
+  }
+
+  .table__texts {
+    height: 25%;
+  }
+
+  .table__images_small {
+    height: 75%;
+  }
+
+  .table__image_small {
+    height: 50%;
+  }
+
+  .table__image {
+    min-height: 0;
+  }
+
+  .black {
+    height: 900px;
+  }
+
+  .footer__text {
+    width: 340px;
+  }
+}
