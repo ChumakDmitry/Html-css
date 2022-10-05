@@ -219,10 +219,13 @@
 }
 
 @media (max-width: 770px) {
-
   .table {
     width: 540px;
     height: 2090px;
+  }
+
+  .bottom {
+    margin-bottom: 50px;
   }
 
   .table__image {
